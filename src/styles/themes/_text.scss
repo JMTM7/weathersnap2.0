@@ -1,0 +1,38 @@
+@import './mediaQueries';
+@import './colors';
+
+$default-font-weight: 900;
+
+.text-title {
+  font-weight: $default-font-weight;
+  font-size: 48px;
+  color: $primary1;
+
+  @include media(upToSmall) {
+    font-size: 24px;
+  }
+}
+
+.text-large-header {
+  font-weight: $default-font-weight;
+  font-size: 36px;
+  color: $text1;
+}
+
+.text-medium-header {
+  font-weight: $default-font-weight;
+  font-size: 24px;
+  color: $text1;
+}
+
+.text-small-header {
+  font-weight: $default-font-weight;
+  font-size: 20px;
+  color: $text1;
+}
+
+.text-body {
+  font-weight: $default-font-weight;
+  font-size: 16px;
+  color: $text1;
+}

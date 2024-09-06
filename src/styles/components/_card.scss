@@ -1,0 +1,20 @@
+@import '../themes/colors';
+
+$default-width: 100%;
+$default-padding: 1rem;
+$default-border-radius: 16px;
+
+.card {
+    width: $default-width;
+    padding: $default-padding;
+    border-radius: $default-border-radius;
+    border: none;
+
+    &.dark {
+        background-color: $bgCard0;
+    }
+
+    &.light {
+        background-color: $bgCard1;
+    }
+}

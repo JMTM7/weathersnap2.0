@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row-end {
+  @extend .row;
+  justify-content: flex-end;
+}
+
+.row-center {
+  @extend .row;
+  justify-content: center;
+}
+
+.row-align-center {
+  @extend .row;
+  align-items: center;
+}
+
+.row-between {
+  @extend .row;
+  justify-content: space-between;
+}
+
+.row-around {
+  @extend .row;
+  justify-content: space-around;
+}

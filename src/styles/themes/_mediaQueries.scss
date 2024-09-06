@@ -1,0 +1,12 @@
+$media-widths: (
+    upToExtraSmall: 500px,
+    upToSmall: 720px,
+    upToMedium: 960px,
+    upToLarge: 1280px,
+);
+
+@mixin media($size) {
+    @media (max-width: map-get($media-widths, $size)) {
+        @content;
+    }
+}
