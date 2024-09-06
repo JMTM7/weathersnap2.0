@@ -1,0 +1,50 @@
+@import '../themes/colors';
+
+.button-global {
+  background-color: $bg-button1;
+  color: $text1;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid $border2;
+  border-radius: 16px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px $shadow1;
+
+  &:hover {
+    background-color: $bg-button2;
+    box-shadow: 0px 6px 12px $shadow1;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $bg-button3;
+    box-shadow: 0px 2px 4px $shadow1;
+    transform: translateY(2px);
+  }
+
+  &:disabled {
+    background-color: $bg-disabled1;
+    color: $text-disabled1;
+    border: 1px solid $border-disabled1;
+    box-shadow: none;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+.button-reset {
+  @extend .button-global;
+  background: $bg-reset1;
+  border: 1px solid red;
+  &:hover {
+    background-color: $bg-reset2;
+  }
+
+  &:active {
+    background-color: $bg-reset2;
+  }
+}

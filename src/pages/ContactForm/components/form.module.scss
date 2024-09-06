@@ -1,0 +1,57 @@
+@import '@styles/components/button';
+@import '@styles/components/card';
+@import '@styles/components/row';
+@import '@styles/themes/colors';
+@import '@styles/themes/mixins';
+@import '@styles/themes/text';
+
+.form-card {
+  @extend .card-light;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.form-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.text-input {
+  width: 97%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid $border3;
+  transition: border-color 0.3s;
+
+  &:focus {
+    border-color: $border2;
+    outline: none;
+  }
+
+  @include media-widths(upToSmall) {
+    width: 95%;
+  }
+}
+
+.select-input {
+  width: 30%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid $border3;
+  transition: border-color 0.3s;
+
+  &:focus {
+    border-color: $border2;
+    outline: none;
+  }
+}

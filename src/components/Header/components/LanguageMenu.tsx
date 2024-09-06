@@ -1,8 +1,7 @@
 import { LOCALE_LABEL, SUPPORTED_LOCALES } from '@constants/locales';
 import { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
-import React from 'react';
-import styles from './LanguageMenu.module.scss';
+import styles from './language-menu.module.scss';
 import { useActiveLocale } from '@hooks/useActiveLocale';
 import { useLocationLinkProps } from '@hooks/useLocationLinkProps';
 import { useUserLocaleManager } from '@state/user/hooks';

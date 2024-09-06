@@ -3,7 +3,7 @@ import LanguageMenu from './components/LanguageMenu';
 import Logo from '@assets/images/logo.png';
 import Sidebar from '@components/Sidebar';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import styles from './Header.module.scss';
+import styles from './header.module.scss';
 import { useState } from 'react';
 
 function Header() {

@@ -1,0 +1,12 @@
+@import '@styles/themes/text';
+@import '@styles/components/page';
+
+.wrapper {
+  @extend .page-wrapper;
+  margin-top: 4rem;
+}
+
+.page-title {
+  @extend .text-title;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+@import '@styles/themes/colors';
+@import '@styles/themes/text';
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-title {
+  @extend .text-title;
+  text-align: center;
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: $link1;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

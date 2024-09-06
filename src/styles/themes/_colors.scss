@@ -1,3 +1,4 @@
+//Backgrounds
 $bg0: linear-gradient(
   204deg,
   rgba(39, 88, 122, 1) 0%,
@@ -8,20 +9,34 @@ $bg2: #102c54;
 $bg3: #094293;
 $bg4: #0f5787;
 $bg5: #226a9a;
-
 $bgOverlay: #00000080;
+$bgCard1: #1b1d20;
+$bgCard2: #003153;
 
-$bgCard0: #1b1d20;
-$bgCard1: #003153;
-
+//Primary
 $primary1: #51d1f6;
 
+//Text
 $text1: #fff;
 $text2: #000;
-
 $link1: #3498db;
 
+//Borders
 $border1: #121d2e;
+$border2: #2271b3;
+$border3: #ccc;
 
-// Shadows
-$shadow1: #2f80ed;
+//Shadows
+$shadow1: #0000004d;
+
+//Buttons
+$bg-button1: #0061a9;
+$bg-button2: #0096d2;
+$bg-button3: #007ab8;
+
+$bg-disabled1: #b0b0b0;
+$text-disabled1: #6c6c6c;
+$border-disabled1: #a0a0a0;
+
+$bg-reset1: #9b111e;
+$bg-reset2: #a2231d;

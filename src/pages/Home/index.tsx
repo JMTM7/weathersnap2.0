@@ -25,7 +25,7 @@ function Home() {
   };
 
   return (
-    <div className={styles.pageWrapper}>
+    <div className={styles['page-wrapper']}>
       <div className={styles.wrapper}>
         <img
           src={Landscape}

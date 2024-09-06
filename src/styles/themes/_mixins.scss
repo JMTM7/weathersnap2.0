@@ -1,0 +1,14 @@
+$widths: (
+  upToExtraSmall: 500px,
+  upToSmall: 720px,
+  upToMedium: 960px,
+  upToLarge: 1280px,
+);
+
+@use 'sass:map';
+
+@mixin media-widths($breakpoint) {
+  @media (max-width: map.get($media-widths, $breakpoint)) {
+    @content;
+  }
+}

@@ -1,7 +1,9 @@
+@import './components/button';
+@import './components/card';
+@import './components/column';
+@import './components/page';
+@import './components/row';
 @import './themes/colors';
 @import './themes/mediaQueries';
+@import './themes/mixins';
 @import './themes/text';
-@import './components/column';
-@import './components/row';
-@import './components/card';
-@import './components/page';

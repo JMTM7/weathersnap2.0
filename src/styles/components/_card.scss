@@ -5,16 +5,18 @@ $default-padding: 1rem;
 $default-border-radius: 16px;
 
 .card {
-    width: $default-width;
-    padding: $default-padding;
-    border-radius: $default-border-radius;
-    border: none;
+  width: $default-width;
+  padding: $default-padding;
+  border-radius: $default-border-radius;
+  border: none;
+}
 
-    &.dark {
-        background-color: $bgCard0;
-    }
+.card-dark {
+  @extend .card;
+  background-color: $bgCard1;
+}
 
-    &.light {
-        background-color: $bgCard1;
-    }
+.card-light {
+  @extend .card;
+  background-color: $bgCard2;
 }

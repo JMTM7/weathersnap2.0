@@ -1,11 +1,13 @@
-.pageWrapper {
+@import '../themes/mixins';
+
+.page-wrapper {
   width: 100%;
 
-  @media (max-width: 800px) {
+  @include media-widths(upToSmall) {
     max-width: 800px;
   }
 
-  @media (max-width: 500px) {
+  @include media-widths(upToExtraSmall) {
     max-width: 500px;
   }
 }
