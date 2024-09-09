@@ -1,4 +1,4 @@
-import { Form } from './components/Form';
+import Form from './components/Form';
 import { Trans } from '@lingui/macro';
 import styles from './contact-form.module.scss';
 

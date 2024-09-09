@@ -1,0 +1,43 @@
+@import '@styles/components/card';
+@import '@styles/components/column';
+@import '@styles/components/row';
+@import '@styles/themes/colors';
+@import '@styles/themes/text';
+
+.card-header {
+  @extend .card-dark;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $bgCard1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.temperature-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: auto;
+  padding: 1rem;
+}
+
+.card-body {
+  @extend .card-light;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+
+.data-container {
+  @extend .column;
+  max-width: 400px;
+  margin: auto;
+  gap: 0.5rem;
+  padding: 1rem;
+}

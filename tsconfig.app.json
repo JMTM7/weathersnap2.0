@@ -30,6 +30,7 @@
       "@components/*": ["components/*"],
       "@constants/*": ["constants/*"],
       "@context/*": ["context/*"],
+      "@data/*": ["data/*"],
       "@hooks/*": ["hooks/*"],
       "@lib/*": ["lib/*"],
       "@locales/*": ["locales/*"],

@@ -48,3 +48,19 @@
     background-color: $bg-reset2;
   }
 }
+
+.button-icon {
+  @extend .button-global;
+  background: $text1;
+  border: 2px solid $text1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    background-color: $bg-button1;
+  }
+}

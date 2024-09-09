@@ -4,7 +4,7 @@ import ContactForm from '@pages/ContactForm';
 import Header from './components/Header';
 import Home from '@pages/Home';
 import NotFound from '@pages/NotFound';
-/*import Weather from "pages/Weather";*/
+import Weather from '@pages/Weather';
 import styles from './app.module.scss';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <div className={styles.appBody}>
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="/weather/:city" element={<Weather />} />*/}
+          <Route path="/weather/:city" element={<Weather />} />
           <Route path="/contact" element={<ContactForm />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

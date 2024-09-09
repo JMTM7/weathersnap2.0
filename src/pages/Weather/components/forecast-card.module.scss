@@ -1,0 +1,45 @@
+@import '@styles/components/button';
+@import '@styles/components/card';
+@import '@styles/components/column';
+@import '@styles/components/row';
+@import '@styles/themes/colors';
+@import '@styles/themes/media-queries';
+@import '@styles/themes/text';
+
+.card-body {
+  @extend .card-light;
+  border-top: none;
+  padding-bottom: 1rem;
+}
+
+.forecast-button-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  bottom: -2%;
+  transform: translateX(-50%);
+}
+
+.forecast-title {
+  @extend .text-medium-header;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.forecast-body {
+  @extend .row-center;
+  width: 345px;
+  margin: auto;
+  @include media-widths(upToSmall) {
+    width: 300px;
+  }
+}
+
+.divider {
+  flex: 1;
+  height: 3px;
+  background-color: $border1;
+}

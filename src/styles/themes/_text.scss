@@ -1,5 +1,5 @@
-@import './mediaQueries';
 @import './colors';
+@import './media-queries';
 
 $default-font-weight: 900;
 
@@ -8,7 +8,7 @@ $default-font-weight: 900;
   font-size: 48px;
   color: $primary1;
 
-  @include media(upToSmall) {
+  @include media-widths(upToSmall) {
     font-size: 24px;
   }
 }
@@ -32,7 +32,6 @@ $default-font-weight: 900;
 }
 
 .text-body {
-  font-weight: $default-font-weight;
   font-size: 16px;
   color: $text1;
 }

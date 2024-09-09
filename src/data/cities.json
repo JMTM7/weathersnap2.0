@@ -1,0 +1,17 @@
+[
+  {
+    "name": "London",
+    "name_es": "Londres",
+    "url": "/weather/london"
+  },
+  {
+    "name": "Toronto",
+    "name_es": "Toronto",
+    "url": "/weather/toronto"
+  },
+  {
+    "name": "Singapore",
+    "name_es": "Singapur",
+    "url": "/weather/singapore"
+  }
+]

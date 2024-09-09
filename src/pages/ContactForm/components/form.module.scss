@@ -2,7 +2,7 @@
 @import '@styles/components/card';
 @import '@styles/components/row';
 @import '@styles/themes/colors';
-@import '@styles/themes/mixins';
+@import '@styles/themes/media-queries';
 @import '@styles/themes/text';
 
 .form-card {
@@ -15,6 +15,7 @@
 .form-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .form-group {

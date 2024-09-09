@@ -39,7 +39,8 @@ List of the main technologies and libraries used in the project.
 - **[Sass](https://sass-lang.com)**: Is a stylesheet language that’s compiled to CSS.
 - **[Webpack](https://webpack.js.org/)**: A static module bundler for JavaScript applications.
 - **[Babel](https://babeljs.io/)**: A JavaScript compiler that lets you use next-generation JavaScript, today.
-- **[Redux](https://redux.js.org)Lingui**: React library for internalization (i18n).
+- **[Lingui](https://lingui.dev/)**: React library for internalization (i18n).
+- **[Weather API](hhttps://openweathermap.org/api)**: Open Weather Api to check the weather data.
 
 ## Installation
 

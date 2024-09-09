@@ -5,10 +5,11 @@ import {
   faFileContract,
   faHouse,
 } from '@fortawesome/free-solid-svg-icons';
-import CitiesLinks from './data/cities.json';
+import CitiesLinks from '@data/cities.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Trans } from '@lingui/macro';
 import styles from './Sidebar.module.scss';
+import { useActiveLocale } from '@hooks/useActiveLocale';
 import { useState } from 'react';
 
 interface SidebarProps {
@@ -16,6 +17,7 @@ interface SidebarProps {
 }
 
 function Sidebar({ isOpen }: SidebarProps) {
+  const activeLanguage = useActiveLocale();
   const [isCitiesOpen, setCitiesOpen] = useState(false);
 
   const toggleCities = () => setCitiesOpen(!isCitiesOpen);
@@ -42,7 +44,7 @@ function Sidebar({ isOpen }: SidebarProps) {
           {CitiesLinks.map((city) => (
             <a href={city.url} className={styles['city-item']} key={city.url}>
               <FontAwesomeIcon icon={faCity} fontSize={18} />
-              <Trans>{city.name}</Trans>
+              {activeLanguage === 'es-ES' ? city.name_es : city.name}
             </a>
           ))}
         </div>

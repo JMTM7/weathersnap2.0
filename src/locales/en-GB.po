@@ -13,6 +13,94 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx
-msgid "Hello"
-msgstr "Hello"
+#: src/pages/ContactForm/components/Form.tsx
+msgid "City"
+msgstr "City"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Name"
+msgstr "Name"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Maximum temperature"
+msgstr "Maximum temperature"
+
+#: src/pages/NotFound.tsx
+msgid "Page not found"
+msgstr "Page not found"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Date of birth"
+msgstr "Date of birth"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Wind speed"
+msgstr "Wind speed"
+
+#: src/pages/Home/index.tsx
+msgid "Your Window to Tomorrow's Weather"
+msgstr "Your Window to Tomorrow's Weather"
+
+#: src/components/Sidebar/index.tsx
+#~ msgid "{0}"
+#~ msgstr "{0}"
+
+#: src/components/Sidebar/index.tsx
+msgid "Cities"
+msgstr "Cities"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Email"
+msgstr "Email"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Reset"
+msgstr "Reset"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Humidity"
+msgstr "Humidity"
+
+#: src/pages/Weather/components/ForecastCard.tsx
+msgid "Forecast 3h"
+msgstr "Forecast 3h"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Submit"
+msgstr "Submit"
+
+#: src/pages/Weather/index.tsx
+msgid "Go back to Home"
+msgstr "Go back to Home"
+
+#: src/components/Sidebar/index.tsx
+msgid "Home"
+msgstr "Home"
+
+#: src/components/Sidebar/index.tsx
+msgid "Contact"
+msgstr "Contact"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Minimum temperature"
+msgstr "Minimum temperature"
+
+#: src/pages/Weather/index.tsx
+msgid "No data available"
+msgstr "No data available"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Feels like"
+msgstr "Feels like"
+
+#: src/pages/ContactForm/index.tsx
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: src/pages/NotFound.tsx
+msgid "Go back to home"
+msgstr "Go back to home"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Phone"
+msgstr "Phone"

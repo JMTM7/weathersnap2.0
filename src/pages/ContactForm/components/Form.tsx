@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PhonePrefixesData from '@assets/data/phonePrefixes.json';
+import PhonePrefixesData from '@data/phonePrefixes.json';
 import { Trans } from '@lingui/macro';
 import styles from './form.module.scss';
 
@@ -8,7 +8,7 @@ type PhonePrefix = {
   label: string;
 };
 
-export function Form() {
+function Form() {
   const [formValues, setFormValues] = useState({
     name: '',
     birth: '',
@@ -167,3 +167,5 @@ export function Form() {
     </div>
   );
 }
+
+export default Form;

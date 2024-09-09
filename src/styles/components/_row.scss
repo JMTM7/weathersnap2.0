@@ -11,6 +11,7 @@
 .row-center {
   @extend .row;
   justify-content: center;
+  align-items: center;
 }
 
 .row-align-center {
@@ -20,6 +21,7 @@
 .row-between {
   @extend .row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .row-around {

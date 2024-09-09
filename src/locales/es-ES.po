@@ -13,6 +13,90 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx
-msgid "Hello"
-msgstr "Hola"
+#: src/pages/ContactForm/components/Form.tsx
+msgid "City"
+msgstr "Ciudad"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Name"
+msgstr "Nombre"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Maximum temperature"
+msgstr "Temperatura máxima"
+
+#: src/pages/NotFound.tsx
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Wind speed"
+msgstr "Velocidad del viento"
+
+#: src/pages/Home/index.tsx
+msgid "Your Window to Tomorrow's Weather"
+msgstr "Tu ventana al clima del mañana"
+
+#: src/components/Sidebar/index.tsx
+msgid "Cities"
+msgstr "Ciudades"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Humidity"
+msgstr "Humedad"
+
+#: src/pages/Weather/components/ForecastCard.tsx
+msgid "Forecast 3h"
+msgstr "Pronóstico 3h"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Submit"
+msgstr "Enviar"
+
+#: src/pages/Weather/index.tsx
+msgid "Go back to Home"
+msgstr "Volver a inicio"
+
+#: src/components/Sidebar/index.tsx
+msgid "Home"
+msgstr "Inicio"
+
+#: src/components/Sidebar/index.tsx
+msgid "Contact"
+msgstr "Contacto"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Minimum temperature"
+msgstr "Temperatura mínima"
+
+#: src/pages/Weather/index.tsx
+msgid "No data available"
+msgstr "No hay datos disponibles"
+
+#: src/pages/Weather/components/WeatherCard.tsx
+msgid "Feels like"
+msgstr "Sensación térmica"
+
+#: src/pages/ContactForm/index.tsx
+msgid "Contact Form"
+msgstr "Formulario de contacto"
+
+#: src/pages/NotFound.tsx
+msgid "Go back to home"
+msgstr "Volver a inicio"
+
+#: src/pages/ContactForm/components/Form.tsx
+msgid "Phone"
+msgstr "Teléfono"

@@ -1,0 +1,14 @@
+@import '../themes/colors';
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: $link1;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

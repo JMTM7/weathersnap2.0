@@ -1,0 +1,64 @@
+@import '@styles/components/button';
+@import '@styles/components/column';
+@import '@styles/components/link';
+@import '@styles/components/page';
+@import '@styles/themes/media-queries';
+@import '@styles/themes/text';
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 3s linear infinite;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+
+  @include media-widths(upToSmall) {
+    top: 50%;
+    left: 40%;
+  }
+}
+
+.not-found-data {
+  @extend .text-title;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include media-widths(upToSmall) {
+    margin-top: 5rem;
+  }
+}
+
+.forecast-button-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  bottom: -2%;
+  transform: translateX(-50%);
+}
