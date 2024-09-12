@@ -3,7 +3,7 @@ import {
   faChevronCircleRight,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ForecastItem } from '@hooks/useWeatherData';
+import { ForecastItem } from '@hooks/useForecastData';
 import { Trans } from '@lingui/macro';
 import { format } from 'date-fns';
 import styles from './forecast-card.module.scss';
@@ -40,6 +40,7 @@ function ForecastCard({ forecastData }: ForecastCardProps) {
               className={styles['button-icon']}
               onClick={prevBlock}
               disabled={currentBlockIndex === 0}
+              aria-label="prev-forecast"
             >
               <FontAwesomeIcon
                 icon={faChevronCircleLeft}
@@ -82,6 +83,7 @@ function ForecastCard({ forecastData }: ForecastCardProps) {
               className={styles['button-icon']}
               onClick={nextBlock}
               disabled={currentBlockIndex === forecastData.length - 1}
+              aria-label="next-forecast"
             >
               <FontAwesomeIcon
                 icon={faChevronCircleRight}

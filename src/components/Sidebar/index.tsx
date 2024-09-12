@@ -25,6 +25,7 @@ function Sidebar({ isOpen }: SidebarProps) {
   return (
     <div
       className={`${styles['sidebar-container']} ${!isOpen && styles['closed']}`}
+      data-testid="sidebar"
     >
       <a href="/" className={styles['nav-item']}>
         <FontAwesomeIcon icon={faHouse} fontSize={18} />

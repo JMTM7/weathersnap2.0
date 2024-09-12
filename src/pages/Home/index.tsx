@@ -1,13 +1,7 @@
-import { CSSProperties, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Landscape from '@assets/images/Home/landscape.png';
 import { Trans } from '@lingui/macro';
 import styles from './Home.module.scss';
-
-interface CustomCSSProperties extends CSSProperties {
-  '--isLoaded'?: string;
-  '--isLoadedBlur'?: string;
-  '--isLoadedFadeIn'?: string;
-}
 
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,24 +12,16 @@ function Home() {
     img.onload = () => setIsLoaded(true);
   }, []);
 
-  const dynamicStyles: CustomCSSProperties = {
-    '--isLoaded': isLoaded ? '1' : '0',
-    '--isLoadedBlur': isLoaded ? 'blur(0)' : 'blur(20px)',
-    '--isLoadedFadeIn': isLoaded ? 'fadeIn' : 'none',
-  };
-
   return (
     <div className={styles['page-wrapper']}>
       <div className={styles.wrapper}>
         <img
           src={Landscape}
           alt="landscape"
-          className={`${styles.styledImage} ${isLoaded && styles.fadeIn}`}
-          style={dynamicStyles}
+          className={`${styles['styled-image']} ${isLoaded && styles['animation-fade-in']}`}
         />
         <h1
-          className={`${styles['page-title']} ${isLoaded && styles.fadeIn}`}
-          style={dynamicStyles}
+          className={`${styles['page-title']} ${isLoaded && styles['animation-fade-in']}`}
         >
           <Trans>Your Window to Tomorrow's Weather</Trans>
         </h1>

@@ -1,18 +1,20 @@
+@import '@styles/components/page';
 @import '@styles/themes/colors';
 @import '@styles/themes/text';
-@import '@styles/components/page';
 
-.fadeIn {
-  @keyframes fadeIn {
-    from {
-      filter: blur(20px);
-      opacity: 0;
-    }
-    to {
-      filter: blur(0);
-      opacity: 1;
-    }
+@keyframes fade-in {
+  from {
+    filter: blur(20px);
+    opacity: 0;
   }
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.animation-fade-in {
+  animation: fade-in 1s ease-out;
 }
 
 .wrapper {
@@ -22,26 +24,12 @@
   margin-top: 8%;
 }
 
-.page-title {
+.page-title,
+.styled-image {
   @extend .text-title;
-  text-align: center;
   transition:
     opacity 1s ease-out,
     filter 1s ease-out;
-  opacity: var(--isLoaded);
-  filter: var(--isLoadedBlur);
-  animation: var(--isLoadedFadeIn) 1s ease-out;
-}
-
-.styledImage {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  transition:
-    opacity 1s ease-out,
-    filter 1s ease-out;
-  opacity: var(--isLoaded);
-  filter: var(--isLoadedBlur);
-  animation: var(--isLoadedFadeIn) 1s ease-out;
+  opacity: 1;
+  filter: blur(0);
 }

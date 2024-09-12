@@ -12,7 +12,7 @@
 
 ## Description
 
-Technical Test: A web application developed in ReactJS that queries a weather service and displays the result in the language selected by the user.
+Technical Test: A web application developed in ReactTs with Vite and Sas, that queries a weather service and displays the result in the language selected by the user.
 
 ## Features
 
@@ -37,10 +37,12 @@ List of the main technologies and libraries used in the project.
 - **[React Router](https://reactrouter.com)**: Library for routing in React applications.
 - **[Redux](https://redux.js.org)**: A state management library for managing the application state.
 - **[Sass](https://sass-lang.com)**: Is a stylesheet language that’s compiled to CSS.
-- **[Webpack](https://webpack.js.org/)**: A static module bundler for JavaScript applications.
-- **[Babel](https://babeljs.io/)**: A JavaScript compiler that lets you use next-generation JavaScript, today.
-- **[Lingui](https://lingui.dev/)**: React library for internalization (i18n).
-- **[Weather API](hhttps://openweathermap.org/api)**: Open Weather Api to check the weather data.
+- **[Webpack](https://webpack.js.org)**: A static module bundler for JavaScript applications.
+- **[Babel](https://babeljs.io)**: A JavaScript compiler that lets you use next-generation JavaScript, today.
+- **[Lingui](https://lingui.dev)**: React library for internalization (i18n).
+- **[Weather API](https://openweathermap.org/api)**: Open Weather Api to check the weather data.
+- **[Jest](https://jestjs.io)**: Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+- **[React Testing Library](https://testing-library.com)**: Simple and complete testing utilities that encourage good testing practices.
 
 ## Installation
 

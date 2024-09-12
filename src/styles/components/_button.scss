@@ -64,3 +64,12 @@
     background-color: $bg-button1;
   }
 }
+
+.button-icon-transparent {
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

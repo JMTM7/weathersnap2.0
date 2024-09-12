@@ -57,9 +57,9 @@ function Form() {
     <div className={styles['form-card']}>
       <form className={styles['form-container']} onSubmit={handleSubmit}>
         <div className={styles['form-group']}>
-          <p className={styles['text-body']}>
+          <label className={styles['text-body']} htmlFor="name">
             <Trans>Name</Trans>*:
-          </p>
+          </label>
           <input
             type="text"
             id="name"
@@ -72,9 +72,9 @@ function Form() {
           />
         </div>
         <div className={styles['form-group']}>
-          <p className={styles['text-body']}>
+          <label className={styles['text-body']} htmlFor="birth">
             <Trans>Date of birth</Trans>*:
-          </p>
+          </label>
           <input
             type="date"
             id="birth"
@@ -87,9 +87,9 @@ function Form() {
           />
         </div>
         <div className={styles['form-group']}>
-          <p className={styles['text-body']}>
+          <label className={styles['text-body']} htmlFor="city">
             <Trans>City</Trans>*:
-          </p>
+          </label>
           <input
             type="text"
             id="city"
@@ -102,9 +102,9 @@ function Form() {
           />
         </div>
         <div className={styles['form-group']}>
-          <p className={styles['text-body']}>
+          <label className={styles['text-body']} htmlFor="email">
             <Trans>Email</Trans>*:
-          </p>
+          </label>
           <input
             type="email"
             id="email"
@@ -117,9 +117,9 @@ function Form() {
           />
         </div>
         <div className={styles['form-group']}>
-          <p className={styles['text-body']}>
+          <label className={styles['text-body']} htmlFor="phone-prefix">
             <Trans>Phone</Trans>*:
-          </p>
+          </label>
           <div className={styles['row-center']} style={{ gap: '1rem' }}>
             <select
               id="phone-prefix"
