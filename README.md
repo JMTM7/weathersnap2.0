@@ -18,7 +18,7 @@ Technical Test: A web application developed in ReactTs with Vite and Sas, that q
 
 - Sidebar with the following options: Home, Cities (dropdown), and Form.
 
-- Displays current weather conditions for three cities: London, Toronto, Singapore.
+- Displays current weather conditions for six cities: London, Toronto, Singapore, Madrid, Tokyo and Berlin.
 
 - Displays the forecasts from 3 hours up to a maximum of 12 hours.
 

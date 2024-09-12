@@ -13,5 +13,20 @@
     "name": "Singapore",
     "name_es": "Singapur",
     "url": "/weather/singapore"
+  },
+  {
+    "name": "Madrid",
+    "name_es": "Madrid",
+    "url": "/weather/madrid"
+  },
+  {
+    "name": "Tokyo",
+    "name_es": "Tokio",
+    "url": "/weather/tokyo"
+  },
+  {
+    "name": "Berlin",
+    "name_es": "Berlin",
+    "url": "/weather/berlin"
   }
 ]
