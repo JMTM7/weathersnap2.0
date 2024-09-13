@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/components/Sidebar/index.tsx
+msgid "Discover"
+msgstr "Discover"
+
 #: src/pages/ContactForm/components/Form.tsx
 msgid "City"
 msgstr "City"
@@ -60,6 +64,10 @@ msgstr "Reset"
 #: src/pages/Weather/components/WeatherCard.tsx
 msgid "Humidity"
 msgstr "Humidity"
+
+#: src/pages/Discover/index.tsx
+msgid "Search cities..."
+msgstr "Search cities..."
 
 #: src/pages/Weather/components/ForecastCard.tsx
 msgid "Forecast 3h"

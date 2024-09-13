@@ -15,6 +15,7 @@
 }
 
 .row-align-center {
+  @extend .row;
   align-items: center;
 }
 

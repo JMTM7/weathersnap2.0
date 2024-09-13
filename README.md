@@ -12,7 +12,7 @@
 
 ## Description
 
-Technical Test: A web application developed in ReactTs with Vite and Sas, that queries a weather service and displays the result in the language selected by the user.
+Technical Test: A web application developed in ReactTs with Vite and Sass, that queries a weather service and displays the result in the language selected by the user.
 
 ## Features
 
@@ -21,6 +21,8 @@ Technical Test: A web application developed in ReactTs with Vite and Sas, that q
 - Displays current weather conditions for six cities: London, Toronto, Singapore, Madrid, Tokyo and Berlin.
 
 - Displays the forecasts from 3 hours up to a maximum of 12 hours.
+
+- Section Discover: displays city thumbnails with pagination and redirects you to the weather forecast for the selected city.
 
 - Contact Form with the following fields: Name, Date of Birth, City, Email, and Phone Number.
 

@@ -29,7 +29,6 @@ function Header() {
         </div>
         <LanguageMenu />
       </div>
-      {/* data-testid: store data in the html for the jest testing to find overlay */}
       {isSidebarOpen && (
         <div
           data-testid="overlay"

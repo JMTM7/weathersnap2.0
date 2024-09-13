@@ -15,7 +15,7 @@
   box-shadow: 0px 4px 8px $shadow1;
 
   &:hover {
-    background-color: $bg-button2;
+    background-color: $bg-button1;
     box-shadow: 0px 6px 12px $shadow1;
     outline: none;
   }
@@ -31,7 +31,6 @@
     color: $text-disabled1;
     border: 1px solid $border-disabled1;
     box-shadow: none;
-    cursor: not-allowed;
     transform: none;
   }
 }
@@ -60,9 +59,6 @@
   height: 24px;
   border-radius: 50%;
   cursor: pointer;
-  &:hover {
-    background-color: $bg-button1;
-  }
 }
 
 .button-icon-transparent {

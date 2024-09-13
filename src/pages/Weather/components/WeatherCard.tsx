@@ -6,12 +6,17 @@ import styles from './weather-card.module.scss';
 interface WeatherCardProps {
   weatherData: WeatherData;
   activeLanguage: string;
+  openForecast: boolean;
 }
 
-function WeatherCard({ weatherData, activeLanguage }: WeatherCardProps) {
+function WeatherCard({
+  weatherData,
+  activeLanguage,
+  openForecast,
+}: WeatherCardProps) {
   const date = new Date();
   const bgCard = weatherData.name
-    ? `url(/images/cities/${weatherData.name}.jpg)`
+    ? `url(/images/cities/${weatherData.name}.webp)`
     : 'none';
 
   const nameCity = Cities.find((city) => city.name === weatherData.name);
@@ -56,7 +61,9 @@ function WeatherCard({ weatherData, activeLanguage }: WeatherCardProps) {
           </div>
         </div>
       </div>
-      <div className={styles['card-body']}>
+      <div
+        className={`${styles['card-body']} ${openForecast && styles['open']}`}
+      >
         <div className={styles['data-container']}>
           <div className={styles['row-between']}>
             <p className={styles['text-body']}>

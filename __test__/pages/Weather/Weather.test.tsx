@@ -39,6 +39,7 @@ describe('WeatherCard', () => {
       <WeatherCard
         weatherData={mockWeatherData}
         activeLanguage={activeLanguage}
+        openForecast={false}
       />
     );
     expect(screen.getByText('London')).toBeInTheDocument();

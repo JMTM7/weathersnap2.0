@@ -19,15 +19,23 @@
   }
 }
 
+.icon-container {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .dropdown-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
   color: $text1;
   font-size: 24px;
   cursor: pointer;
   user-select: none;
+  gap: 0.5rem;
 
   &:hover {
     color: $link1;

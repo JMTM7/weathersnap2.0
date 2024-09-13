@@ -2,6 +2,7 @@ import {
   faChevronDown,
   faChevronRight,
   faCity,
+  faCompass,
   faFileContract,
   faHouse,
 } from '@fortawesome/free-solid-svg-icons';
@@ -28,15 +29,19 @@ function Sidebar({ isOpen }: SidebarProps) {
       data-testid="sidebar"
     >
       <a href="/" className={styles['nav-item']}>
-        <FontAwesomeIcon icon={faHouse} fontSize={18} />
+        <div className={styles['icon-container']}>
+          <FontAwesomeIcon icon={faHouse} fontSize="18px" />
+        </div>
         <Trans>Home</Trans>
       </a>
 
       <div className={styles['dropdown-header']} onClick={toggleCities}>
-        <FontAwesomeIcon
-          icon={isCitiesOpen ? faChevronDown : faChevronRight}
-          fontSize={16}
-        />
+        <div className={styles['icon-container']}>
+          <FontAwesomeIcon
+            icon={isCitiesOpen ? faChevronDown : faChevronRight}
+            fontSize="18px"
+          />
+        </div>
         <Trans>Cities</Trans>
       </div>
 
@@ -44,15 +49,26 @@ function Sidebar({ isOpen }: SidebarProps) {
         <div className={styles['dropdown-content']}>
           {CitiesLinks.map((city) => (
             <a href={city.url} className={styles['city-item']} key={city.url}>
-              <FontAwesomeIcon icon={faCity} fontSize={18} />
+              <div className={styles['icon-container']}>
+                <FontAwesomeIcon icon={faCity} fontSize="18px" />
+              </div>
               {activeLanguage === 'es-ES' ? city.name_es : city.name}
             </a>
           ))}
         </div>
       )}
 
+      <a href="/discover" className={styles['nav-item']}>
+        <div className={styles['icon-container']}>
+          <FontAwesomeIcon icon={faCompass} fontSize="18px" />
+        </div>
+        <Trans>Discover</Trans>
+      </a>
+
       <a href="/contact" className={styles['nav-item']}>
-        <FontAwesomeIcon icon={faFileContract} fontSize={18} />
+        <div className={styles['icon-container']}>
+          <FontAwesomeIcon icon={faFileContract} fontSize="18px" />
+        </div>
         <Trans>Contact</Trans>
       </a>
     </div>

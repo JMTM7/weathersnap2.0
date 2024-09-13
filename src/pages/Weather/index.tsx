@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { faMinusCircle, faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ForecastCard from './components/ForecastCard';
-import LoadingImage from '@assets/images/Weather/loading.png';
+import LoadingImage from '@assets/images/Weather/loading.webp';
 import { Trans } from '@lingui/macro';
 import WeatherCard from './components/WeatherCard';
 import styles from './weather.module.scss';
@@ -56,6 +56,7 @@ function Weather() {
         <WeatherCard
           weatherData={weatherData}
           activeLanguage={activeLanguage}
+          openForecast={openForecast}
         />
         <div className={styles['forecast-button-container']}>
           <button

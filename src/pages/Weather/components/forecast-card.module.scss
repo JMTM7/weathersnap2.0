@@ -8,8 +8,9 @@
 
 .card-body {
   @extend .card-light;
-  border-top: none;
   padding-bottom: 1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .forecast-button-container {
